@@ -1,0 +1,26 @@
+{
+  "name": "jan2024be",
+  "version": "1.0.0",
+  "description": "jan2024 online node js backend api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "jan2024",
+    "node",
+    "api",
+    "techstudio"
+  ],
+  "author": "blard",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "nodemon": "^3.1.1"
+  }
+}
